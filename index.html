@@ -1,0 +1,262 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graph</title>
+    <link rel="stylesheet" href="CSS/index 2.0.css">
+</head>
+<body>
+    <a href="index.html"><img src="images/libby.png" id="homebutton"></a>
+    <h1>Comparing Where I am in the Book vs My Interest in the Book</h1>
+   
+    <div id="verticalgraph"></div>
+    <div id="horizontalgraph"></div>
+    <div id="horvalue1"></div>
+    <div id="horvalue2"></div>
+    <div id="horvalue3"></div>
+    <div id="horvalue4"></div>
+    <div id="horvalue5"></div>
+    <div id="horvalue6"></div>
+    <div id="horvalue7"></div>
+    <div id="horvalue8"></div>
+    <div id="horvalue9"></div>
+    <div id="horvalue10"></div>
+    <p id="hornum1">10%</p>
+    <p id="hornum2">20%</p>
+    <p id="hornum3">30%</p>
+    <p id="hornum4">40%</p>
+    <p id="hornum5">50%</p>
+    <p id="hornum6">60%</p>
+    <p id="hornum7">70%</p>
+    <p id="hornum8">80%</p>
+    <p id="hornum9">90%</p>
+    <p id="hornum10">100%</p>
+    <div id="vertvalue1"></div>
+    <div id="vertvalue2"></div>
+    <div id="vertvalue3"></div>
+    <div id="vertvalue4"></div>
+    <div id="vertvalue5"></div>
+    <div id="vertvalue6"></div>
+    <div id="vertvalue7"></div>
+    <div id="vertvalue8"></div>
+    <div id="vertvalue9"></div>
+    <div id="vertvalue10"></div>
+    <p id="vertnum1">1</p>
+    <p id="vertnum2">2</p>
+    <p id="vertnum3">3</p>
+    <p id="vertnum4">4</p>
+    <p id="vertnum5">5</p>
+    <p id="vertnum6">6</p>
+    <p id="vertnum7">7</p>
+    <p id="vertnum8">8</p>
+    <p id="vertnum9">9</p>
+    <p id="vertnum10">10</p>
+    <h2 id="horlabel">PERCENTAGE READ</h2>
+    <h2 class="graph" id="vertlabel">MY INTEREST IN THE BOOK (0-10)</h2>
+   
+    <div id="circle"></div>
+    <div class="graph" id="blue1"></div>
+    <p  class="percentage" id="lwm1">0%</p>
+    <div class="graph" id="blue2"></div>
+    <p  class="percentage"  id="lwm2">5%</p>
+    <div class="graph" id="blue3"></div>
+    <p  class="percentage" id="lwm3">13%</p>
+    <div class="graph" id="blue4"></div>
+    <p  class="percentage" id="lwm4">21%</p>
+    <div class="graph" id="blue5"></div>
+    <p  class="percentage" id="lwm5">23%</p>
+    <div class="graph" id="blue6"></div>
+    <p  class="percentage" id="lwm6">39%</p>
+    <div class="graph" id="blue7"></div>
+    <p  class="percentage" id="lwm7">43%</p>
+    <div class="graph" id="blue8"></div>
+    <p class="percentage"  id="lwm8">75%</p>
+    <div class="graph" id="blue9"></div>
+    <p  class="percentage" id="lwm9">86%</p>
+    <div class="graph" id="blue10"></div>
+    <p  class="percentage" id="lwm10">88%</p>
+    <div class="graph" id="blue11"></div>
+    <p  class="percentage" id="lwm11">92%</p>
+    <div class="graph" id="blue12"></div>
+    <p  class="percentage" id="lwm12">95%</p>
+    <div class="graph" id="blue13"></div>
+    <p  class="percentage" id="lwm13">99%</p>
+
+    <div class="graph" id="wdky1"></div>
+    <p  class="percentage" id="red1">9%</p>
+    <div class="graph" id="wdky2"></div>
+    <p  class="percentage" id="red2">16%</p>
+    <div class="graph" id="wdky3"></div>
+    <p  class="percentage" id="red3">24%</p>
+    <div class="graph" id="wdky4"></div>
+    <p class="percentage"  id="red4">25%</p>
+    <div class="graph" id="wdky5"></div>
+    <p  class="percentage" id="red5">32%</p>
+    <div class="graph" id="wdky6"></div>
+    <p  class="percentage" id="red6">36%</p>
+    <div class="graph" id="wdky7"></div>
+    <p  class="percentage" id="red7">40%</p>
+    <div class="graph" id="wdky8"></div>
+    <p  class="percentage" id="red8">69%</p>
+    <div class="graph" id="wdky9"></div>
+    <p  class="percentage" id="red9">99%</p>
+
+    <img src="images/snowflake-02.png" class="graph" id="tb1">
+    <p  class="percentage" id="white1">10%</p>
+    <img src="images/snowflake-02.png" class="graph" id="tb2">
+    <p  class="percentage" id="white2">26%</p>
+    <img src="images/snowflake-02.png" class="graph" id="tb3">
+    <p  class="percentage" id="white3">38%</p>
+    <img src="images/snowflake-02.png" class="graph" id="tb4">
+    <p class="percentage"  id="white4">46%</p>
+    <img src="images/snowflake-02.png" class="graph" id="tb5">
+    <p class="percentage"  id="white5">55%</p>
+    <img src="images/snowflake-02.png" class="graph" id="tb6">
+    <p class="percentage"  id="white6">59%</p>
+    <img src="images/snowflake-02.png" class="graph" id="tb7">
+    <p  class="percentage" id="white7">62%</p>
+    <img src="images/snowflake-02.png" class="graph" id="tb8">
+    <p  class="percentage" id="white8">65%</p>
+    <img src="images/snowflake-02.png" class="graph" id="tb9">
+    <p  class="percentage" id="white9">70%</p>
+    <img src="images/snowflake-02.png" class="graph" id="tb10">
+    <p  class="percentage" id="white10">71%</p>
+    <img src="images/snowflake-02.png" class="graph" id="tb11">
+    <p  class="percentage" id="white11">79%</p>
+    <img src="images/snowflake-02.png" class="graph" id="tb12">
+    <p  class="percentage" id="white12">80%</p>
+    <img src="images/snowflake-02.png" class="graph" id="tb13">
+    <p  class="percentage" id="white13">82%</p>
+    <img src="images/snowflake-02.png" class="graph" id="tb14">
+    <p  class="percentage" id="white14">84%</p>
+    <img src="images/snowflake-02.png" class="graph" id="tb15">
+    <p  class="percentage" id="white15">85%</p>
+    <img src="images/snowflake-02.png" class="graph" id="tb16">
+    <p  class="percentage" id="white16">87%</p>
+    <img src="images/snowflake-02.png" class="graph" id="tb17">
+    <p  class="percentage" id="white17">90%</p>
+    <img src="images/snowflake-02.png" class="graph" id="tb18">
+    <p  class="percentage" id="white18">93%</p>
+
+    <img src="images/cars.png" class="graph" id="ips1">
+    <p  class="percentage" id="yel1">7%</p>
+    <img src="images/cars.png" class="graph" id="ips2">
+    <p  class="percentage" id="yel2">26%</p>
+    <img src="images/cars.png" class="graph" id="ips3">
+    <p  class="percentage" id="yel3">90%</p>
+
+    <img src="images/camera.png" class="graph" id="ydlh1">
+    <p  class="percentage" id="pink1">3%</p>
+    <img src="images/camera.png" class="graph" id="ydlh2">
+    <p  class="percentage" id="pink2">5%</p>
+    <img src="images/camera.png" class="graph" id="ydlh3">
+    <p  class="percentage" id="pink3">7%</p>
+    <img src="images/camera.png" class="graph" id="ydlh4">
+    <p  class="percentage" id="pink4">9%</p>
+    <img src="images/camera.png" class="graph" id="ydlh5">
+    <p class="percentage"  id="pink5">12%</p>
+    <img src="images/camera.png" class="graph" id="ydlh6">
+    <p  class="percentage" id="pink6">15%</p>
+    <img src="images/camera.png" class="graph" id="ydlh7">
+    <p  class="percentage" id="pink7">25%</p>
+    <img src="images/camera.png" class="graph" id="ydlh8">
+    <p  class="percentage" id="pink8">37%</p>
+    <img src="images/camera.png" class="graph" id="ydlh9">
+    <p  class="percentage" id="pink9">40%</p>
+    <img src="images/camera.png" class="graph" id="ydlh10">
+    <p  class="percentage" id="pink10">43%</p>
+    <img src="images/camera.png" class="graph" id="ydlh11">
+    <p  class="percentage" id="pink11">45%</p>
+    <img src="images/camera.png" class="graph" id="ydlh12">
+    <p  class="percentage" id="pink12">66%</p>
+    <img src="images/camera.png" class="graph" id="ydlh13">
+    <p  class="percentage" id="pink13">68%</p>
+    <img src="images/camera.png" class="graph" id="ydlh14">
+    <p  class="percentage" id="pink14">79%</p>
+    <img src="images/camera.png" class="graph" id="ydlh15">
+    <p  class="percentage" id="pink15">82%</p>
+    <img src="images/camera.png" class="graph" id="ydlh16">
+    <p  class="percentage" id="pink16">86%</p>
+    <img src="images/camera.png" class="graph" id="ydlh17">
+    <p  class="percentage" id="pink17">90%</p>
+    <img src="images/camera.png" class="graph" id="ydlh18">
+    <p  class="percentage" id="pink18">94%</p>
+
+    <img src="images/tooth.png" class="graph" id="stn1">
+    <p  class="percentage" id="sky1">11%</p>
+    <img src="images/tooth.png" class="graph" id="stn2">
+    <p  class="percentage"  id="sky2">19%</p>
+    <img src="images/tooth.png" class="graph" id="stn3">
+    <p  class="percentage" id="sky3">22%</p>
+    <img src="images/tooth.png" class="graph" id="stn4">
+    <p  class="percentage" id="sky4">25%</p>
+    <img src="images/tooth.png" class="graph" id="stn5">
+    <p  class="percentage" id="sky5">31%</p>
+    <img src="images/tooth.png" class="graph" id="stn6">
+    <p class="percentage"  id="sky6">39%</p>
+    <img src="images/tooth.png" class="graph" id="stn7">
+    <p  class="percentage" id="sky7">43%</p>
+    <img src="images/tooth.png" class="graph" id="stn8">
+    <p class="percentage"  id="sky8">66%</p>
+    <img src="images/tooth.png" class="graph" id="stn9">
+    <p  class="percentage" id="sky9">70%</p>
+    <img src="images/tooth.png" class="graph" id="stn10">
+    <p  class="percentage" id="sky10">74%</p>
+    <img src="images/tooth.png" class="graph" id="stn11">
+    <p class="percentage"  id="sky11">79%</p>
+    <img src="images/tooth.png" class="graph" id="stn12">
+    <p  class="percentage" id="sky12">80%</p>
+    <img src="images/tooth.png" class="graph" id="stn13">
+    <p  class="percentage" id="sky13">92%</p>
+    <img src="images/tooth.png" class="graph" id="stn14">
+    <p  class="percentage" id="sky14">95%</p>
+    <img src="images/tooth.png" class="graph" id="stn15">
+    <p  class="percentage" id="sky15">96%</p>
+
+    <img src="images/piano.png" class="graph" id="ts1">
+    <p  class="percentage" id="purple1">4%</p>
+    <img src="images/piano.png" class="graph" id="ts2">
+    <p  class="percentage" id="purple2">8%</p>
+    <img src="images/piano.png" class="graph" id="ts3">
+    <p  class="percentage" id="purple3">15%</p>
+    <img src="images/piano.png" class="graph" id="ts4">
+    <p  class="percentage" id="purple4">23%</p>
+    <img src="images/piano.png" class="graph" id="ts5">
+    <p class="percentage"  id="purple5">27%</p>
+    <img src="images/piano.png" class="graph" id="ts6">
+    <p  class="percentage" id="purple6">34%</p>
+    <img src="images/piano.png" class="graph" id="ts7">
+    <p class="percentage"  id="purple7">46%</p>
+    <img src="images/piano.png" class="graph" id="ts8">
+    <p  class="percentage" id="purple8">60%</p>
+    <img src="images/piano.png" class="graph" id="ts9">
+    <p  class="percentage" id="purple9">72%</p>
+    <img src="images/piano.png" class="graph" id="ts10">
+    <p class="percentage"  id="purple10">80%</p>
+    <img src="images/piano.png" class="graph" id="ts11">
+    <p class="percentage"  id="purple11">83%</p>
+    <img src="images/piano.png" class="graph" id="ts12">
+    <p class="percentage"  id="purple12">90%</p>
+    <img src="images/piano.png" class="graph" id="ts13">
+    <p class="percentage" id="purple13">97%</p>
+
+   <a href="lwm.html"> <div id="legendblue"></div>
+    <p id="lwm">Local Woman Missing</p></a>
+    <a href="wdky.html"><div id="legendwdky"></div>
+    <p id="wdky">What Doesn't Kill You</p></a>
+    <a href="tb.html"><img src="images/snowflake-02.png" id="legendtb">
+    <p id="tb">The Break</p></a>
+    <a href="ips.html"><img src="images/cars.png" id="legendips">
+    <p id="ips">In Plain Sight</p></a>
+   <a href="ydlh.html"><img src="images/camera.png" id="legendydlh">
+    <p id="ydlh">You Don't Live Here</p></a>
+    <a href="stn.html"><img src="images/tooth.png" id="legendstn">
+    <p id="stn">Survive The Night</p></a>
+    <a href="ts.html"><img src="images/piano.png" id="legendts">
+    <p id="ts">The Subtweet</p></a>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="javascript/index 2.0.js"></script>    
+</body>
+</html>

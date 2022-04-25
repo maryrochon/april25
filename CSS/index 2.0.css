@@ -1,0 +1,2359 @@
+@font-face {
+    font-family: myFont;
+    src: url(fonts/Morton.otf);
+}
+body{
+    background: rgb(141, 94, 112);
+}
+
+#homebutton{
+    height: 75px;
+    width: 75px;
+    position: absolute;
+    left: 1.786%;
+    top: 40px;
+}
+#homebutton:hover{
+    box-shadow: 5px 5px 3px black;
+    border-radius: 100%;
+}
+
+h1{
+    position: absolute;
+    top: 20px;
+    left: 29.76%;
+    font-family: 'myFont';
+}
+
+#horizontalgraph{
+    background: black;
+    position: absolute;
+    left: 20.95%;
+    top: 652px;
+    width: 1050px;
+    height: 6px;
+}
+#horvalue1{
+    height: 20px;
+    width: 3px;
+    background: black;
+    position: absolute;
+    top: 646px;
+    left: 26.964%;
+}
+#hornum1{
+    position: absolute;
+    font-family: 'myfont';
+    font-size: 18px;
+    top: 646px;
+    left: 26.19%;
+}
+#horvalue2{
+    height: 20px;
+    width: 3px;
+    background: black;
+    position: absolute;
+    top: 646px;
+    left: 32.917%;
+}
+#hornum2{
+    position: absolute;
+    font-family: 'myfont';
+    font-size: 18px;
+    top: 646px;
+    left: 32.321%;
+}
+#horvalue3{
+    height: 20px;
+    width: 3px;
+    background: black;
+    position: absolute;
+    top: 646px;
+    left: 38.869%;
+}
+#hornum3{
+    position: absolute;
+    font-family: 'myfont';
+    font-size: 18px;
+    top: 646px;
+    left: 38.274%;
+}
+#horvalue4{
+    height: 20px;
+    width: 3px;
+    background: black;
+    position: absolute;
+    top: 646px;
+    left: 44.821%;
+}
+#hornum4{
+    position: absolute;
+    font-family: 'myfont';
+    font-size: 18px;
+    top: 646px;
+    left: 44.226%;
+}
+#horvalue5{
+    height: 20px;
+    width: 3px;
+    background: black;
+    position: absolute;
+    top: 646px;
+    left: 50.774%;
+}
+#hornum5{
+    position: absolute;
+    font-family: 'myfont';
+    font-size: 18px;
+    top: 646px;
+    left: 50.179%;
+}
+#horvalue6{
+    height: 20px;
+    width: 3px;
+    background: black;
+    position: absolute;
+    top: 646px;
+    left: 56.726%;
+}
+#hornum6{
+    position: absolute;
+    font-family: 'myfont';
+    font-size: 18px;
+    top: 646px;
+    left: 56.131%;
+}
+#horvalue7{
+    height: 20px;
+    width: 3px;
+    background: black;
+    position: absolute;
+    top: 646px;
+    left: 62.679%;
+}
+#hornum7{
+    position: absolute;
+    font-family: 'myfont';
+    font-size: 18px;
+    top: 646px;
+    left: 62.083%;
+}
+#horvalue8{
+    height: 20px;
+    width: 3px;
+    background: black;
+    position: absolute;
+    top: 646px;
+    left: 68.631%;
+}
+#hornum8{
+    position: absolute;
+    font-family: 'myfont';
+    font-size: 18px;
+    top: 646px;
+    left: 68.036%;
+}
+#horvalue9{
+    height: 20px;
+    width: 3px;
+    background: black;
+    position: absolute;
+    top: 646px;
+    left: 74.583%;
+}
+#hornum9{
+    position: absolute;
+    font-family: 'myfont';
+    font-size: 18px;
+    top: 646px;
+    left: 73.988%;
+}
+#horvalue10{
+    height: 20px;
+    width: 3px;
+    background: black;
+    position: absolute;
+    top: 646px;
+    left: 80.536%;
+}
+#hornum10{
+    position: absolute;
+    font-family: 'myfont';
+    font-size: 18px;
+    top: 646px;
+    left: 79.762%;
+}
+
+
+#verticalgraph{
+    background: black;
+    position: absolute;
+    left: 20.952%;
+    top: 127px;
+    width: 6px;
+    height: 525px;
+}
+#vertvalue1{
+    width: 20px;
+    height: 3px;
+    background: black;
+    position: absolute;
+    top: 603px;
+    left: 20.595%;
+}
+#vertnum1{
+    position: absolute;
+    font-family: 'myfont';
+    font-size: 18px;
+    top: 572px;
+    left: 19.643%;
+}
+#vertvalue2{
+    width: 20px;
+    height: 3px;
+    background: black;
+    position: absolute;
+    top: 553px;
+    left: 20.595%;
+}
+#vertnum2{
+    position: absolute;
+    font-family: 'myfont';
+    font-size: 18px;
+    top: 522px;
+    left: 19.643%;
+}
+#vertvalue3{
+    width: 20px;
+    height: 3px;
+    background: black;
+    position: absolute;
+    top: 503px;
+    left: 20.595%;
+}
+#vertnum3{
+    position: absolute;
+    font-family: 'myfont';
+    font-size: 18px;
+    top: 472px;
+    left: 19.643%;
+}
+#vertvalue4{
+    width: 20px;
+    height: 3px;
+    background: black;
+    position: absolute;
+    top: 453px;
+    left: 20.595%;
+}
+#vertnum4{
+    position: absolute;
+    font-family: 'myfont';
+    font-size: 18px;
+    top: 422px;
+    left: 19.643%;
+}
+#vertvalue5{
+    width: 20px;
+    height: 3px;
+    background: black;
+    position: absolute;
+    top: 403px;
+    left: 20.595%;
+}
+#vertnum5{
+    position: absolute;
+    font-family: 'myfont';
+    font-size: 18px;
+    top: 372px;
+    left: 19.643%;
+}
+#vertvalue6{
+    width: 20px;
+    height: 3px;
+    background: black;
+    position: absolute;
+    top: 353px;
+    left: 20.595%;
+}
+#vertnum6{
+    position: absolute;
+    font-family: 'myfont';
+    font-size: 18px;
+    top: 322px;
+    left: 19.643%;
+}
+#vertvalue7{
+    width: 20px;
+    height: 3px;
+    background: black;
+    position: absolute;
+    top: 303px;
+    left: 20.595%;
+}
+#vertnum7{
+    position: absolute;
+    font-family: 'myfont';
+    font-size: 18px;
+    top: 272px;
+    left: 19.643%;
+}
+#vertvalue8{
+    width: 20px;
+    height: 3px;
+    background: black;
+    position: absolute;
+    top: 253px;
+    left: 20.595%;
+}
+#vertnum8{
+    position: absolute;
+    font-family: 'myfont';
+    font-size: 18px;
+    top: 222px;
+    left: 19.643%;
+}
+#vertvalue9{
+    width: 20px;
+    height: 3px;
+    background: black;
+    position: absolute;
+    top: 203px;
+    left: 20.595%;
+}
+#vertnum9{
+    position: absolute;
+    font-family: 'myfont';
+    font-size: 18px;
+    top: 172px;
+    left: 19.643%;
+}
+#vertvalue10{
+    width: 20px;
+    height: 3px;
+    background: black;
+    position: absolute;
+    top: 153px;
+    left: 20.595%;
+}
+#vertnum10{
+    position: absolute;
+    font-family: 'myfont';
+    font-size: 18px;
+    top: 122px;
+    left: 19.048%;}
+
+    
+#horlabel{
+    font-family: 'myFont';
+    position: absolute;
+    top: 680px;
+    left: 48.036%;
+}
+#vertlabel{
+    font-family: 'myFont';
+   /* https://developer.mozilla.org/en-US/docs/Web/CSS/text-orientation */
+   writing-mode: vertical-rl;
+   position: absolute;
+   top: 240px;
+   left: 15.595%;
+}
+.percentage{
+    font-size: 18px;
+}
+/*local woman missing*/
+.graph.b1{
+    opacity: 0.15;
+}
+.graph.b2{
+    opacity: 0.15;
+}
+.graph.b3{
+    opacity: 0.15;
+}
+.graph.b4{
+    opacity: 0.15;
+}
+.graph.b5{
+    opacity: 0.15;
+}
+.graph.b6{
+    opacity: 0.15;
+}
+.graph.b7{
+    opacity: 0.15;
+}
+.graph.b8{
+    opacity: 0.15;
+}
+.graph.b9{
+    opacity: 0.15;
+}
+.graph.b10{
+    opacity: 0.15;
+}
+.graph.b11{
+    opacity: 0.15;
+}
+.graph.b12{
+    opacity: 0.15;
+}
+.graph.b13{
+    opacity: 0.15;
+}
+#blue1{
+    background: rgb(10, 201, 188);
+    border-radius: 20%;
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 597.5px;
+    left: 20.714%;
+}
+#blue1:hover{
+    opacity: 1;
+}
+#lwm1{
+    position: absolute;
+    top: 578px;
+    left: 22.024%;
+    color: white;
+    opacity: 0;
+}
+#blue2{
+    background: rgb(10, 201, 188);
+    border-radius: 20%;
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 498.5px;
+    left: 23.661%;
+}
+#blue2:hover{
+    opacity: 1;
+}
+#lwm2{
+    position: absolute;
+    top: 478px;
+    left: 25%;
+    color: white;
+    opacity: 0;
+}
+#blue3{
+    background: rgb(10, 201, 188);
+    border-radius: 20%;
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 647.5px;
+    left: 28.243%;
+}
+#blue3:hover{
+    opacity: 1;
+}
+#lwm3{
+    position: absolute;
+    top: 627px;
+    left: 29.762%;
+    color: white;
+    opacity: 0;
+}
+#blue4{
+    background: rgb(10, 201, 188);
+    border-radius: 20%;
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 397.5px;
+    left: 33.185%;
+    z-index: 10;
+}
+#blue4:hover{
+    opacity: 1;
+}
+#lwm4{
+    position: absolute;
+    top: 377px;
+    left: 34.524%;
+    color: white;
+    opacity: 0;
+}
+#blue5{
+    background: rgb(10, 201, 188);
+    border-radius: 20%;
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 647.5px;
+    left: 34.375%;
+}
+#blue5:hover{
+    opacity: 1;
+}
+#lwm5{
+    position: absolute;
+    top: 627px;
+    left: 35.714%;
+    color: white;
+    opacity: 0;
+}
+#blue6{
+    background: rgb(10, 201, 188);
+    border-radius: 20%;
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 347.5px;
+    left: 43.8995%;
+}
+#blue6:hover{
+    opacity: 1;
+}
+#lwm6{
+    position: absolute;
+    top: 327px;
+    left: 45.238%;
+    color: white;
+    opacity: 0;
+}
+#blue7{
+    background: rgb(10, 201, 188);
+    border-radius: 20%;
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 297.5px;
+    left: 46.28%;
+}
+#blue7:hover{
+    opacity: 1;
+}
+#lwm7{
+    position: absolute;
+    top: 277px;
+    left: 47.619%;
+    color: white;
+    opacity: 0;
+}
+#blue8{
+    background: rgb(10, 201, 188);
+    border-radius: 20%;
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 247.5px;
+    left: 65.327%;
+    z-index: 5;
+}
+#blue8:hover{
+    opacity: 1;
+}
+#lwm8{
+    position: absolute;
+    top: 227px;
+    left: 66.667%;
+    color: white;
+    opacity: 0;
+}
+#blue9{
+    background: rgb(10, 201, 188);
+    border-radius: 20%;
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 247.5px;
+    left: 71.875%;
+}
+#blue9:hover{
+    opacity: 1;
+}
+#lwm9{
+    position: absolute;
+    top: 227px;
+    left: 73.214%;
+    color: white;
+    opacity: 0;
+}
+#blue10{
+    background: rgb(10, 201, 188);
+    border-radius: 20%;
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 222.5px;
+    left: 73.065%;
+    z-index: 5;
+}
+#blue10:hover{
+    opacity: 1;
+}
+#lwm10{
+    position: absolute;
+    top: 202px;
+    left: 74.405%;
+    color: white;
+    opacity: 0;
+}
+#blue11{
+    background: rgb(10, 201, 188);
+    border-radius: 20%;
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 197.5px;
+    left: 75.446%;
+    z-index: 10;
+}
+#blue11:hover{
+    opacity: 1;
+}
+#lwm11{
+    position: absolute;
+    top: 177px;
+    left: 76.786%;
+    color: white;
+    opacity: 0;
+}
+#blue12{
+    background: rgb(10, 201, 188);
+    border-radius: 20%;
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 147.5px;
+    left: 77.232%;
+    z-index: 5;
+}
+#blue12:hover{
+    opacity: 1;
+}
+#lwm12{
+    position: absolute;
+    top: 127px;
+    left: 78.571%;
+    color: white;
+    opacity: 0;
+}
+#blue13{
+    background: rgb(10, 201, 188);
+    border-radius: 20%;
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 147.5px;
+    left: 79.613%;
+    z-index: 10;
+}
+#blue13:hover{
+    opacity: 1;
+}
+#lwm13{
+    position: absolute;
+    top: 127px;
+    left: 80.952%;
+    color: white;
+    opacity: 0;
+}
+
+/*What doesn't kill you*/
+.graph.wd1{
+    opacity: 0.15;
+}
+.graph.wd2{
+    opacity: 0.15;
+}
+.graph.wd3{
+    opacity: 0.15;
+}
+.graph.wd4{
+    opacity: 0.15;
+}
+.graph.wd5{
+    opacity: 0.15;
+}
+.graph.wd6{
+    opacity: 0.15;
+}
+.graph.wd7{
+    opacity: 0.15;
+}
+.graph.wd8{
+    opacity: 0.15;
+}
+.graph.wd9{
+    opacity: 0.15;
+}
+#wdky1{
+    background:rgb(156,27,69);
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    position: absolute;
+    top: 498.5px;
+    left: 26.042%;
+}
+#wdky1:hover{
+    opacity: 1;
+}
+#red1{
+    position: absolute;
+    top: 478px;
+    left: 27.381%;
+    color: white;
+    opacity: 0;
+}
+#wdky2{
+    background:rgb(156,27,69);
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    position: absolute;
+    top: 397.5px;
+    left: 30.208%;
+}
+#wdky2:hover{
+    opacity: 1;
+}
+#red2{
+    position: absolute;
+    top: 377px;
+    left: 31.548%;
+    color: white;
+    opacity: 0;
+}
+#wdky3{
+    background:rgb(156,27,69);
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    position: absolute;
+    top: 647.5px;
+    left: 34.97%;
+}
+#wdky3:hover{
+    opacity: 1;
+}
+#red3{
+    position: absolute;
+    top: 627px;
+    left: 36.31%;
+    color: white;
+    opacity: 0;
+}
+#wdky4{
+    background:rgb(156,27,69);
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    position: absolute;
+    top: 397.5px;
+    left: 35.565%;
+}
+#wdky4:hover{
+    opacity: 1;
+}
+#red4{
+    position: absolute;
+    top: 377px;
+    left: 36.905%;
+    color: white;
+    opacity: 0;
+}
+#wdky5{
+    background:rgb(156,27,69);
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    position: absolute;
+    top: 297.5px;
+    left: 39.732%;
+}
+#wdky5:hover{
+    opacity: 1;
+}
+#red5{
+    position: absolute;
+    top: 277px;
+    left: 41.071%;
+    color: white;
+    opacity: 0;
+}
+#wdky6{
+    background:rgb(156,27,69);
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    position: absolute;
+    top: 647.5px;
+    left: 42.113%;
+}
+#wdky6:hover{
+    opacity: 1;
+}
+#red6{
+    position: absolute;
+    top: 627px;
+    left: 43.452%;
+    color: white;
+    opacity: 0;
+}
+#wdky7{
+    background:rgb(156,27,69);
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    position: absolute;
+    top: 397.5px;
+    left: 44.494%;
+}
+#wdky7:hover{
+    opacity: 1;
+}
+#red7{
+    position: absolute;
+    top: 377px;
+    left: 45.833%;
+    color: white;
+    opacity: 0;
+}
+#wdky8{
+    background:rgb(156,27,69);
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    position: absolute;
+    top: 222.5px;
+    left: 61.756%;
+}
+#wdky8:hover{
+    opacity: 1;
+}
+#red8{
+    position: absolute;
+    top: 202px;
+    left: 63.095%;
+    color: white;
+    opacity: 0;
+}
+#wdky9{
+    background:rgb(156,27,69);
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    position: absolute;
+    top: 247.5px;
+    left: 79.613%;
+}
+#wdky9:hover{
+    opacity: 1;
+}
+#red9{
+    position: absolute;
+    top: 227px;
+    left: 80.952%;
+    color: white;
+    opacity: 0;
+}
+
+/*The Break*/
+.graph.tb1{
+    opacity: 0.15;
+}
+.graph.tb2{
+    opacity: 0.15;
+}
+.graph.tb3{
+    opacity: 0.15;
+}
+.graph.tb4{
+    opacity: 0.15;
+}
+.graph.tb5{
+    opacity: 0.15;
+}
+.graph.tb6{
+    opacity: 0.15;
+}
+.graph.tb7{
+    opacity: 0.15;
+}
+.graph.tb8{
+    opacity: 0.15;
+}
+.graph.tb9{
+    opacity: 0.15;
+}.graph.tb10{
+    opacity: 0.15;
+}
+.graph.tb11{
+    opacity: 0.15;
+}
+.graph.tb12{
+    opacity: 0.15;
+}
+.graph.tb13{
+    opacity: 0.15;
+}
+.graph.tb14{
+    opacity: 0.15;
+}
+.graph.tb15{
+    opacity: 0.15;
+}
+.graph.tb16{
+    opacity: 0.15;
+}
+.graph.tb17{
+    opacity: 0.15;
+}
+.graph.tb18{
+    opacity: 0.15;
+}
+
+#tb1{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 397.5px;
+    left: 26.637%;
+    z-index: 10;
+}
+#tb1:hover{
+    opacity: 1;
+}
+#white1{
+    position: absolute;
+    top: 377px;
+    left: 27.976%;
+    color: white;
+    opacity: 0;
+}
+#tb2{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 347.5px;
+    left: 36.161%;
+    z-index: 3;
+}
+#tb2:hover{
+    opacity: 1;
+}
+#white2{
+    position: absolute;
+    top: 327px;
+    left: 37.5%;
+    color: white;
+    opacity: 0;
+}
+#tb3{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 272.5px;
+    left: 43.304%;
+} 
+#tb3:hover{
+    opacity: 1;
+}
+#white3{
+    position: absolute;
+    top: 252px;
+    left: 44.643%;
+    color: white;
+    opacity: 0;
+}
+#tb4{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 547.5px;
+    left: 48.065%;
+}
+#tb4:hover{
+    opacity: 1;
+}
+#white4{
+    position: absolute;
+    top: 527px;
+    left: 49.405%;
+    color: white;
+    opacity: 0;
+}
+#tb5{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 397.5px;
+    left: 53.423%
+}
+#tb5:hover{
+    opacity: 1;
+}
+#white5{
+    position: absolute;
+    top: 377px;
+    left: 54.762%;
+    color: white;
+    opacity: 0;
+}
+#tb6{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 523.5px;
+    left: 55.804%
+}
+#tb6:hover{
+    opacity: 1;
+}
+#white6{
+    position: absolute;
+    top: 502px;
+    left: 57.143%;
+    color: white;
+    opacity: 0;
+}
+#tb7{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 497.5px;
+    left: 57.589%;
+}
+#tb7:hover{
+    opacity: 1;
+}
+#white7{
+    position: absolute;
+    top: 477px;
+    left: 58.929%;
+    color: white;
+    opacity: 0;
+}
+#tb8{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 547.5px;
+    left: 59.375%;
+}
+#tb8:hover{
+    opacity: 1;
+}
+#white8{
+    position: absolute;
+    top: 527px;
+    left: 60.714%;
+    color: white;
+    opacity: 0;
+}
+#tb9{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 447.5px;
+    left: 62.351%;
+}
+#tb9:hover{
+    opacity: 1;
+}
+#white9{
+    position: absolute;
+    top: 427px;
+    left: 63.69%;
+    color: white;
+    opacity: 0;
+}
+#tb10{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 347.5px;
+    left: 62.946%;
+}
+#tb10:hover{
+    opacity: 1;
+}
+#white10{
+    position: absolute;
+    top: 327px;
+    left: 64.286%;
+    color: white;
+    opacity: 0;
+}
+#tb11{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 547.5px;
+    left: 67.708%;
+}
+#tb11:hover{
+    opacity: 1;
+}
+#white11{
+    position: absolute;
+    top: 527px;
+    left: 69.048%;
+    color: white;
+    opacity: 0;
+}
+#tb12{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 472.5px;
+    left: 68.304%;
+} 
+#tb12:hover{
+    opacity: 1;
+}
+#white12{
+    position: absolute;
+    top: 452px;
+    left: 69.643%;
+    color: white;
+    opacity: 0;
+}
+#tb13{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 347.5px;
+    left: 69.494%;
+}
+#tb13:hover{
+    opacity: 1;
+}
+#white13{
+    position: absolute;
+    top: 327px;
+    left: 70.833%;
+    color: white;
+    opacity: 0;
+}
+#tb14{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 447.5px;
+    left: 70.685%;
+    z-index: 9;
+}
+#tb14:hover{
+    opacity: 1;
+}
+#white14{
+    position: absolute;
+    top: 427px;
+    left: 72.024%;
+    color: white;
+    opacity: 0;
+}
+#tb15{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 347.5px;
+    left: 71.280%;
+    z-index: 10;
+}
+#tb15:hover{
+    opacity: 1;
+}
+#white15{
+    position: absolute;
+    top: 327px;
+    left: 72.619%;
+    color: white;
+    opacity: 0;
+}
+#tb16{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 222.5px;
+    left: 72.470%;
+}
+#tb16:hover{
+    opacity: 1;
+}
+#white16{
+    position: absolute;
+    top: 203px;
+    left: 73.810%;
+    color: white;
+    opacity: 0;
+}
+#tb17{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 147.5px;
+    left: 74.256%;
+}
+#tb17:hover{
+    opacity: 1;
+}
+#white17{
+    position: absolute;
+    top: 127px;
+    left: 75.595%;
+    color: white;
+    opacity: 0;
+}
+#tb18{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 447.5px;
+    left: 76.042%;
+}
+#tb18:hover{
+    opacity: 1;
+}
+#white18{
+    position: absolute;
+    top: 427px;
+    left: 77.381%;
+    color: white;
+    opacity: 0;
+}
+
+/*In Plain Sight*/
+.graph.ps1{
+    opacity: 0.15;
+}
+.graph.ps2{
+    opacity: 0.15;
+}
+.graph.ps3{
+    opacity: 0.15;
+}
+#ips1{
+    height: 15px;
+    width: 18px;
+    position: absolute;
+    top: 399.5px;
+    left: 24.701%;
+    z-index: 10;
+}
+#ips1:hover{
+    opacity: 1;
+}
+#yel1{
+    position: absolute;
+    top: 377px;
+    left: 26.190%;
+    color: white;
+    opacity: 0;
+}
+#ips2{
+    height: 15px;
+    width: 18px;
+    position: absolute;
+    top: 599.5px;
+    left: 36.01%;
+}
+#ips2:hover{
+    opacity: 1;
+}
+#yel2{
+    position: absolute;
+    top: 577px;
+    left: 37.5%;
+    color: white;
+    opacity: 0;
+}
+#ips3{
+    height: 15px;
+    width: 18px;
+    position: absolute;
+    top: 475.5px;
+    left: 74.1%;
+}
+#ips3:hover{
+    opacity: 1;
+}
+#yel3{
+    position: absolute;
+    top: 453px;
+    left: 75.595%;
+    color: white;
+    opacity: 0;
+}
+
+/*You don't live here*/
+.graph.ydlh1{
+    opacity: 0.15;
+}
+.graph.ydlh2{
+    opacity: 0.15;
+}
+.graph.ydlh3{
+    opacity: 0.15;
+}
+.graph.ydlh4{
+    opacity: 0.15;
+}
+.graph.ydlh5{
+    opacity: 0.15;
+}
+.graph.ydlh6{
+    opacity: 0.15;
+}
+.graph.ydlh7{
+    opacity: 0.15;
+}
+.graph.ydlh8{
+    opacity: 0.15;
+}
+.graph.ydlh9{
+    opacity: 0.15;
+}
+.graph.ydlh10{
+    opacity: 0.15;
+}
+.graph.ydlh11{
+    opacity: 0.15;
+}
+.graph.ydlh12{
+    opacity: 0.15;
+}
+.graph.ydlh13{
+    opacity: 0.15;
+}
+.graph.ydlh14{
+    opacity: 0.15;
+}
+.graph.ydlh15{
+    opacity: 0.15;
+}
+.graph.ydlh16{
+    opacity: 0.15;
+}
+.graph.ydlh17{
+    opacity: 0.15;
+}
+.graph.ydlh18{
+    opacity: 0.15;
+}
+#ydlh1{
+    height: 15px;
+    width: 16px;
+    position: absolute;
+    top: 647.5px;
+    left: 22.47%;
+}
+#ydlh1:hover{
+    opacity: 1;
+}
+#pink1{
+    position: absolute;
+    top: 627px;
+    left: 23.81%;
+    color: white;
+    opacity: 0;
+}
+#ydlh2{
+    height: 15px;
+    width: 16px;
+    position: absolute;
+    top: 397.5px;
+    left: 23.661%;
+}
+#ydlh2:hover{
+    opacity: 1;
+}
+#pink2{
+    position: absolute;
+    top: 377px;
+    left: 25%;
+    color: white;
+    opacity: 0;
+}
+#ydlh3{
+    height: 15px;
+    width: 16px;
+    position: absolute;
+    top: 597.5px;
+    left: 24.851%;
+}
+#ydlh3:hover{
+    opacity: 1;
+}
+#pink3{
+    position: absolute;
+    top: 577px;
+    left: 26.190%;
+    color: white;
+    opacity: 0;
+}
+#ydlh4{
+    height: 15px;
+    width: 16px;
+    position: absolute;
+    top: 347.5px;
+    left: 26.042%;
+}
+#ydlh4:hover{
+    opacity: 1;
+}
+#pink4{
+    position: absolute;
+    top: 327px;
+    left: 27.381%;
+    color: white;
+    opacity: 0;
+}
+#ydlh5{
+    height: 15px;
+    width: 16px;
+    position: absolute;
+    top: 447.5px;
+    left: 27.827%;
+}
+#ydlh5:hover{
+    opacity: 1;
+}
+#pink5{
+    position: absolute;
+    top: 427px;
+    left: 29.167%;
+    color: white;
+    opacity: 0;
+}
+#ydlh6{
+    height: 15px;
+    width: 16px;
+    position: absolute;
+    top: 347.5px;
+    left: 29.613%;
+}
+#ydlh6:hover{
+    opacity: 1;
+}
+#pink6{
+    position: absolute;
+    top: 327px;
+    left: 30.952%;
+    color: white;
+    opacity: 0;
+}
+#ydlh7{
+    height: 15px;
+    width: 16px;
+    position: absolute;
+    top: 247.5px;
+    left: 35.565%;
+}
+#ydlh7:hover{
+    opacity: 1;
+}
+#pink7{
+    position: absolute;
+    top: 227px;
+    left: 36.905%;
+    color: white;
+    opacity: 0;
+}
+#ydlh8{
+    height: 15px;
+    width: 16px;
+    position: absolute;
+    top: 647.5px;
+    left: 42.708%;
+}
+#ydlh8:hover{
+    opacity: 1;
+}
+#pink8{
+    position: absolute;
+    top: 627px;
+    left: 44.048%;
+    color: white;
+    opacity: 0;
+}
+#ydlh9{
+    height: 15px;
+    width: 16px;
+    position: absolute;
+    top: 597.5px;
+    left: 44.494%;
+}
+#ydlh9:hover{
+    opacity: 1;
+}
+#pink9{
+    position: absolute;
+    top: 577px;
+    left: 45.833%;
+    color: white;
+    opacity: 0;
+}
+#ydlh10{
+    height: 15px;
+    width: 16px;
+    position: absolute;
+    top: 447.5px;
+    left: 46.280%;
+}
+#ydlh10:hover{
+    opacity: 1;
+}
+#pink10{
+    position: absolute;
+    top: 427px;
+    left: 47.619%;
+    color: white;
+    opacity: 0;
+}
+#ydlh11{
+    height: 15px;
+    width: 16px;
+    position: absolute;
+    top: 347.5px;
+    left: 47.47%;
+}
+#ydlh11:hover{
+    opacity: 1;
+}
+#pink11{
+    position: absolute;
+    top: 327px;
+    left: 48.810%;
+    color: white;
+    opacity: 0;
+}
+#ydlh12{
+    height: 15px;
+    width: 16px;
+    position: absolute;
+    top: 272.5px;
+    left: 59.97%;
+}
+#ydlh12:hover{
+    opacity: 1;
+}
+#pink12{
+    position: absolute;
+    top: 252px;
+    left: 61.310%;
+    color: white;
+    opacity: 0;
+}
+#ydlh13{
+    height: 15px;
+    width: 16px;
+    position: absolute;
+    top: 297.5px;
+    left: 61.161%;
+}
+#ydlh13:hover{
+    opacity: 1;
+}
+#pink13{
+    position: absolute;
+    top: 277px;
+    left: 62.5%;
+    color: white;
+    opacity: 0;
+}
+#ydlh14{
+    height: 15px;
+    width: 16px;
+    position: absolute;
+    top: 447.5px;
+    left: 67.708%;
+}
+#ydlh14:hover{
+    opacity: 1;
+}
+#pink14{
+    position: absolute;
+    top: 427px;
+    left: 69.048%;
+    color: white;
+    opacity: 0;
+}
+#ydlh15{
+    height: 15px;
+    width: 16px;
+    position: absolute;
+    top: 497.5px;
+    left: 69.494%;
+}
+#ydlh15:hover{
+    opacity: 1;
+}
+#pink15{
+    position: absolute;
+    top: 477px;
+    left: 70.833%;
+    color: white;
+    opacity: 0;
+}
+#ydlh16{
+    height: 15px;
+    width: 16px;
+    position: absolute;
+    top: 397.5px;
+    left: 71.875%;
+}
+#ydlh16:hover{
+    opacity: 1;
+}
+#pink16{
+    position: absolute;
+    top: 377px;
+    left: 73.214%;
+    color: white;
+    opacity: 0;
+}
+#ydlh17{
+    height: 15px;
+    width: 16px;
+    position: absolute;
+    top: 272.5px;
+    left: 74.256%;
+}
+#ydlh17:hover{
+    opacity: 1;
+}
+#pink17{
+    position: absolute;
+    top: 252px;
+    left: 75.595%;
+    color: white;
+    opacity: 0;
+}
+#ydlh18{
+    height: 15px;
+    width: 16px;
+    position: absolute;
+    top: 222.5px;
+    left: 76.637%;
+}
+#ydlh18:hover{
+    opacity: 1;
+}
+#pink18{
+    position: absolute;
+    top: 202px;
+    left: 77.976%;
+    color: white;
+    opacity: 0;
+}
+
+/*Survive the Night*/
+.graph.stn1{
+    opacity: 0.15;
+}
+.graph.stn2{
+    opacity: 0.15;
+}
+.graph.stn3{
+    opacity: 0.15;
+}
+.graph.stn4{
+    opacity: 0.15;
+}
+.graph.stn5{
+    opacity: 0.15;
+}
+.graph.stn6{
+    opacity: 0.15;
+}
+.graph.stn7{
+    opacity: 0.15;
+}
+.graph.stn8{
+    opacity: 0.15;
+}
+.graph.stn9{
+    opacity: 0.15;
+}
+.graph.stn10{
+    opacity: 0.15;
+}
+.graph.stn11{
+    opacity: 0.15;
+}
+.graph.stn12{
+    opacity: 0.15;
+}
+.graph.stn13{
+    opacity: 0.15;
+}
+.graph.stn14{
+    opacity: 0.15;
+}
+.graph.stn15{
+    opacity: 0.15;
+}
+#stn1{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 597.5px;
+    left: 27.232%;
+}
+#stn1:hover{
+    opacity: 1;
+}
+#sky1{
+    position: absolute;
+    top: 577px;
+    left: 28.571%;
+    color: white;
+    opacity: 0;
+}
+#stn2{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 322.5px;
+    left: 31.994%;
+}
+#stn2:hover{
+    opacity: 1;
+}
+#sky2{
+    position: absolute;
+    top: 302px;
+    left: 33.33%;
+    color: white;
+    opacity: 0;
+}
+#stn3{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 297.5px;
+    left: 33.780%;
+}
+#stn3:hover{
+    opacity: 1;
+}
+#sky3{
+    position: absolute;
+    top: 277px;
+    left: 35.119%;
+    color: white;
+    opacity: 0;
+}
+#stn4{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 347.5px;
+    left: 35.565%;
+}
+#stn4:hover{
+    opacity: 1;
+}
+#sky4{
+    position: absolute;
+    top: 327px;
+    left: 36.905%;
+    color: white;
+    opacity: 0;
+}
+#stn5{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 247.5px;
+    left: 39.137%;
+}
+#stn5:hover{
+    opacity: 1;
+}
+#sky5{
+    position: absolute;
+    top: 227px;
+    left: 40.476%;
+    color: white;
+    opacity: 0;
+}
+#stn6{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 272.5px;
+    left: 43.899%;
+}
+#stn6:hover{
+    opacity: 1;
+}#sky6{
+    position: absolute;
+    top: 252px;
+    left: 45.238%;
+    color: white;
+    opacity: 0;
+}
+#stn7{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 222.5px;
+    left: 46.280%
+}
+#stn7:hover{
+    opacity: 1;
+}
+#sky7{
+    position: absolute;
+    top: 202px;
+    left: 47.619%;
+    color: white;
+    opacity: 0;
+}
+#stn8{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 397.5px;
+    left: 59.97%;
+}
+#stn8:hover{
+    opacity: 1;
+}
+#sky8{
+    position: absolute;
+    top: 377px;
+    left: 61.310%;
+    color: white;
+    opacity: 0;
+}
+#stn9{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 197.5px;
+    left: 62.351%;
+}
+#stn9:hover{
+    opacity: 1;
+}
+#sky9{
+    position: absolute;
+    top: 177px;
+    left: 63.69%;
+    color: white;
+    opacity: 0;
+}
+#stn10{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 247.5px;
+    left: 64.732%;
+}
+#stn10:hover{
+    opacity: 1;
+}
+#sky10{
+    position: absolute;
+    top: 227px;
+    left: 66.071%;
+    color: white;
+    opacity: 0;
+}
+#stn11{ 
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 197.5px;
+    left: 67.708%;
+}
+#stn11:hover{
+    opacity: 1;
+}
+#sky11{
+    position: absolute;
+    top: 177px;
+    left: 69.048%;
+    color: white;
+    opacity: 0;
+}
+#stn12{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 172.5px;
+    left: 68.304%;
+}
+#stn12:hover{
+    opacity: 1;
+}
+#sky12{
+    position: absolute;
+    top: 152px;
+    left: 69.643%;
+    color: white;
+    opacity: 0;
+}
+#stn13{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 147.5px;
+    left: 75.446%;
+}
+#stn13:hover{
+    opacity: 1;
+}
+#sky13{
+    position: absolute;
+    top: 127px;
+    left: 76.786%;
+    color: white;
+    opacity: 0;
+}
+#stn14{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 297.5px;
+    left: 77.232%;
+}
+#stn14:hover{
+    opacity: 1;
+}
+#sky14{
+    position: absolute;
+    top: 277px;
+    left: 78.571%;
+    color: white;
+    opacity: 0;
+}
+#stn15{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 222.5px;
+    left: 77.827%;
+}
+#stn15:hover{
+    opacity: 1;
+}
+#sky15{
+    position: absolute;
+    top: 202px;
+    left: 79.167%;
+    color: white;
+    opacity: 0;
+}
+
+/*the subtweet*/
+.graph.ts1{
+    opacity: 0.15;
+}
+.graph.ts2{
+    opacity: 0.15;
+}
+.graph.ts3{
+    opacity: 0.15;
+}
+.graph.ts4{
+    opacity: 0.15;
+}
+.graph.ts5{
+    opacity: 0.15;
+}
+.graph.ts6{
+    opacity: 0.15;
+}
+.graph.ts7{
+    opacity: 0.15;
+}
+.graph.ts8{
+    opacity: 0.15;
+}
+.graph.ts9{
+    opacity: 0.15;
+}
+.graph.ts10{
+    opacity: 0.15;
+}
+.graph.ts11{
+    opacity: 0.15;
+}
+.graph.ts12{
+    opacity: 0.15;
+}
+.graph.ts13{
+    opacity: 0.15;
+}
+#ts1{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 522.5px;
+    left: 23.065%;
+}
+#ts1:hover{
+    opacity: 1;
+}
+#purple1{
+    position: absolute;
+    top: 502px;
+    left: 24.405%;
+    color: white;
+    opacity: 0;
+}
+#ts2{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 397.5px;
+    left: 25.446%;
+    z-index: 10;
+}
+#ts2:hover{
+    opacity: 1;
+}
+#purple2{
+    position: absolute;
+    top: 377px;
+    left: 26.786%;
+    color: white;
+    opacity: 0;
+}
+#ts3{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 297.5px;
+    left: 29.613%;
+}
+#ts3:hover{
+    opacity: 1;
+}
+#purple3{
+    position: absolute;
+    top: 276px;
+    left: 30.952%;
+    color: white;
+    opacity: 0;
+}
+#ts4{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 447.5px;
+    left: 34.375%;
+}
+#ts4:hover{
+    opacity: 1;
+}
+#purple4{
+    position: absolute;
+    top: 426.5px;
+    left: 35.714%;
+    color: white;
+    opacity: 0;
+}
+#ts5{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 335px;
+    left: 36.756%;
+}
+#ts5:hover{
+    opacity: 1;
+}
+#purple5{
+    position: absolute;
+    top: 314px;
+    left: 38.095%;
+    color: white;
+    opacity: 0;
+}
+#ts6{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 297.5px;
+    left: 40.923%;
+}
+#ts6:hover{
+    opacity: 1;
+}
+#purple6{
+    position: absolute;
+    top: 276px;
+    left: 42.262%;
+    color: white;
+    opacity: 0;
+}
+#ts7{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 247.5px;
+    left: 48.065%;
+}
+#ts7:hover{
+    opacity: 1;
+}
+#purple7{
+    position: absolute;
+    top: 227px;
+    left: 49.405%;
+    color: white;
+    opacity: 0;
+}
+#ts8{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 197.5px;
+    left: 56.399%;
+}
+#ts8:hover{
+    opacity: 1;
+}
+#purple8{
+    position: absolute;
+    top: 177px;
+    left: 57.738%;
+    color: white;
+    opacity: 0;
+}
+#ts9{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 147.5px;
+    left: 63.542%;
+}
+#ts9:hover{
+    opacity: 1;
+}
+#purple9{
+    position: absolute;
+    top: 126.5px;
+    left: 64.881%;
+    color: white;
+    opacity: 0;
+}
+#ts10{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 147.5px;
+    left: 68.304%;
+}
+#ts10:hover{
+    opacity: 1;
+}
+#purple10{
+    position: absolute;
+    top: 126px;
+    left: 69.643%;
+    color: white;
+    opacity: 0;
+}
+#ts11{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 347.5px;
+    left: 70.089%;
+}
+#ts11:hover{
+    opacity: 1;
+}
+#purple11{
+    position: absolute;
+    top: 327px;
+    left: 71.429%;
+    color: white;
+    opacity: 0;
+}
+#ts12{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 197.5px;
+    left: 74.274%;
+}
+#ts12:hover{
+    opacity: 1;
+}
+#purple12{
+    position: absolute;
+    top: 176px;
+    left: 75.595%;
+    color: white;
+    opacity: 0;
+}
+#ts13{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 147.5px;
+    left: 78.423%;
+}
+#ts13:hover{
+    opacity: 1;
+}
+#purple13{
+    position: absolute;
+    top: 126.5px;
+    left: 79.762%;
+    color: white;
+    opacity: 0;
+}
+
+/*legend*/
+#legendblue{
+    background:rgb(10, 201, 188);
+    height: 25px;
+    width: 25px;
+    border-radius: 20%;
+    position: absolute;
+    top: 765px;
+    left: 13.69%;
+}
+#lwm{
+    color: black;
+    text-decoration: none;
+    font-size: 21px;    
+    position: absolute;
+    top: 740px;
+    left: 15.476%;
+    font-family: 'myFont';
+}
+#lwm:hover{
+    color:rgb(10, 201, 188);
+    text-decoration: none;
+}
+#legendwdky{
+    background:rgb(156,27,69);
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+    position: absolute;
+    top: 765px;
+    left: 27.083%;
+}
+#wdky{
+    color: black;
+    text-decoration: none;
+    font-size: 21px;    
+    position: absolute;
+    top: 740px;
+    left: 28.869%;
+    font-family: 'myFont';
+}
+#wdky:hover{
+    color:rgb(156,27,69);
+    text-decoration: none;
+}
+#legendtb{
+  
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+    position: absolute;
+    top: 765px;
+    left: 40.476%;
+}
+#tb{
+    color: black;
+    text-decoration: none;
+    font-size: 21px;    
+    position: absolute;
+    top: 740px;
+    left: 42.262%;
+    font-family: 'myFont';
+}
+#tb:hover{
+    color:white;
+    text-decoration: none;
+}
+#legendips{
+    height: 25px;
+    width: 32px;
+    position: absolute;
+    top: 765px;
+    left: 49%;
+}
+#ips{
+    color: black;
+    text-decoration: none;
+    font-size: 21px;    
+    position: absolute;
+    top: 740px;
+    left: 51.190%;
+    font-family: 'myFont';
+}
+#ips:hover{
+    color:rgb(255, 219, 88);
+    text-decoration: none;
+}
+#legendydlh{
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    top: 765px;
+    left: 59.524%;
+}
+#ydlh{
+    color: black;
+    text-decoration: none;
+    font-size: 21px;    
+    position: absolute;
+    top: 740px;
+    left: 61.310%;
+    font-family: 'myFont';
+}
+#ydlh:hover{
+    color:rgb(255, 3, 255);
+    text-decoration: none;
+}
+#legendstn{
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    top: 765px;
+    left: 72.024%; 
+}
+#stn{
+    color: black;
+    text-decoration: none;
+    font-size: 21px;    
+    position: absolute;
+    top: 740px;
+    left: 73.810%;
+    font-family: 'myFont';
+}
+#stn:hover{
+    color:blue;
+    text-decoration: none;
+}
+#legendts{
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    top: 765px;
+    left: 83.929%;
+}
+#ts{
+    color: black;
+    text-decoration: none;
+    font-size: 21px;    
+    position: absolute;
+    top: 740px;
+    left: 85.714%;
+    font-family: 'myFont';
+}
+#ts:hover{
+    color:rgb(166, 0, 243);
+    text-decoration: none;
+}

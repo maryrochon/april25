@@ -1,0 +1,692 @@
+@font-face {
+    font-family: myFont;
+    src: url(fonts/Morton.otf);
+}
+body{
+    background: rgb(180, 125, 145);
+    height: 1700px;
+}
+#homebutton{
+    height: 75px;
+    width: 75px;
+    position: absolute;
+    left: 1.786%;
+    top: 40px;
+}
+#homebutton:hover{
+    box-shadow: 5px 5px 3px black;
+    border-radius: 100%;
+}
+#title{
+    font-family: 'myFont';
+    position: absolute;
+    left: 7.44%;
+    top: 15px;
+    font-size: 36px;
+    width: 1000px;
+    color: white;
+}
+#book{
+    height: 512px;
+    width: 336.8px;
+    position: absolute;
+    left: 9.426%;
+    top: 190px;
+    box-shadow: 5px 5px 3px black;
+}
+
+#star1{
+    height: 96.8px;
+    width: 108px;
+    position: absolute;
+    top: 150px;
+    left: 86.310%;
+}
+#star2{
+    height: 96.8px;
+    width: 108px;
+    position: absolute;
+    top: 275px;
+    left: 86.310%;
+}
+#star3{
+    height: 96.8px;
+    width: 108px;
+    position: absolute;
+    top: 400px;
+    left: 86.310%;
+}
+#star4{
+    height: 50.8px;
+    width: 108px;
+    position: absolute;
+    top: 525px;
+    left: 86.310%;
+}
+
+
+#review{
+    width: 800px;
+    font-size: 17px;
+    position: absolute;
+    top: 200px;
+    left: 33.333%;
+}
+
+#statstitle{
+    position: absolute;
+    left: 33.333%;
+    top: 300px; 
+    color: white;
+    font-family:'myFont';
+}
+
+#stat1{
+    position: absolute;
+    left: 33.333%;
+    top: 375px;
+}
+#stat2{
+    position: absolute;
+    left: 33.333%;
+    top: 405px;
+}
+#stat3{
+    position: absolute;
+    left: 33.333%;
+    top: 435px;
+}
+#stat4{
+    position: absolute;
+    left: 33.333%;
+    top: 465px;
+}
+#stat5{
+    position: absolute;
+    left: 33.333%;
+    top: 495px;
+}
+#stat6{
+    position: absolute;
+    left: 33.333%;
+    top: 525px;
+}
+#stat7{
+    position: absolute;
+    left: 33.333%;
+    top: 555px;
+}
+#stat8{
+    position: absolute;
+    left: 33.333%;
+    top: 585px;
+}
+#stat9{
+    position: absolute;
+    left: 33.333%;
+    top: 615px;
+}
+
+
+#spoilers{
+    width: 99.5%;
+    text-align: center;
+    font-family: 'myFont';
+    position: absolute;
+    top: 725px;
+    color: white;
+    text-decoration: underline;
+    font-size: 30px;
+}
+#grexpl{
+    width: 99.5%;
+    text-align: center;
+    font-family: 'myFont';
+    position: absolute;
+    top: 835px;
+    font-size: 18px;
+}
+.percentage{
+    font-size: 18px;
+}
+
+/*graph*/
+#graphtitle{
+    position: absolute;
+    top: 945px;
+    left: 29.76%;
+    font-family: 'myFont';
+}
+#horizontalgraph{
+    background: black;
+    position: absolute;
+    left: 20.95%;
+    top: 1577px;
+    width: 1050px;
+    height: 6px;
+}
+#horvalue1{
+    height: 20px;
+    width: 3px;
+    background: black;
+    position: absolute;
+    top: 1571px;
+    left: 26.964%;
+}
+#hornum1{
+    position: absolute;
+    font-family: 'myfont';
+    font-size: 18px;
+    top: 1571px;
+    left: 26.19%;
+}
+#horvalue2{
+    height: 20px;
+    width: 3px;
+    background: black;
+    position: absolute;
+    top: 1571px;
+    left: 32.917%;
+}
+#hornum2{
+    position: absolute;
+    font-family: 'myfont';
+    font-size: 18px;
+    top: 1571px;
+    left: 32.321%;
+}
+#horvalue3{
+    height: 20px;
+    width: 3px;
+    background: black;
+    position: absolute;
+    top: 1571px;
+    left: 38.869%;
+}
+#hornum3{
+    position: absolute;
+    font-family: 'myfont';
+    font-size: 18px;
+    top: 1571px;
+    left: 38.274%;
+}
+#horvalue4{
+    height: 20px;
+    width: 3px;
+    background: black;
+    position: absolute;
+    top: 1571px;
+    left: 44.821%;
+}
+#hornum4{
+    position: absolute;
+    font-family: 'myfont';
+    font-size: 18px;
+    top: 1571px;
+    left: 44.226%;
+}
+#horvalue5{
+    height: 20px;
+    width: 3px;
+    background: black;
+    position: absolute;
+    top: 1571px;
+    left: 50.774%;
+}
+#hornum5{
+    position: absolute;
+    font-family: 'myfont';
+    font-size: 18px;
+    top: 1571px;
+    left: 50.179%;
+}
+#horvalue6{
+    height: 20px;
+    width: 3px;
+    background: black;
+    position: absolute;
+    top: 1571px;
+    left: 56.726%;
+}
+#hornum6{
+    position: absolute;
+    font-family: 'myfont';
+    font-size: 18px;
+    top: 1571px;
+    left: 56.131%;
+}
+#horvalue7{
+    height: 20px;
+    width: 3px;
+    background: black;
+    position: absolute;
+    top: 1571px;
+    left: 62.679%;
+}
+#hornum7{
+    position: absolute;
+    font-family: 'myfont';
+    font-size: 18px;
+    top: 1571px;
+    left: 62.083%;
+}
+#horvalue8{
+    height: 20px;
+    width: 3px;
+    background: black;
+    position: absolute;
+    top: 1571px;
+    left: 68.631%;
+}
+#hornum8{
+    position: absolute;
+    font-family: 'myfont';
+    font-size: 18px;
+    top: 1571px;
+    left: 68.036%;
+}
+#horvalue9{
+    height: 20px;
+    width: 3px;
+    background: black;
+    position: absolute;
+    top: 1571px;
+    left: 74.583%;
+}
+#hornum9{
+    position: absolute;
+    font-family: 'myfont';
+    font-size: 18px;
+    top: 1571px;
+    left: 73.988%;
+}
+#horvalue10{
+    height: 20px;
+    width: 3px;
+    background: black;
+    position: absolute;
+    top: 1571px;
+    left: 80.536%;
+}
+#hornum10{
+    position: absolute;
+    font-family: 'myfont';
+    font-size: 18px;
+    top: 1571px;
+    left: 79.762%;
+}
+
+
+#verticalgraph{
+    background: black;
+    position: absolute;
+    left: 20.952%;
+    top: 1052px;
+    width: 6px;
+    height: 525px;
+}
+#vertvalue1{
+    width: 20px;
+    height: 3px;
+    background: black;
+    position: absolute;
+    top: 1528px;
+    left: 20.595%;
+}
+#vertnum1{
+    position: absolute;
+    font-family: 'myfont';
+    font-size: 18px;
+    top: 1497px;
+    left: 19.643%;
+}
+#vertvalue2{
+    width: 20px;
+    height: 3px;
+    background: black;
+    position: absolute;
+    top: 1478px;
+    left: 20.595%;
+}
+#vertnum2{
+    position: absolute;
+    font-family: 'myfont';
+    font-size: 18px;
+    top: 1447px;
+    left: 19.643%;
+}
+#vertvalue3{
+    width: 20px;
+    height: 3px;
+    background: black;
+    position: absolute;
+    top: 1428px;
+    left: 20.595%;
+}
+#vertnum3{
+    position: absolute;
+    font-family: 'myfont';
+    font-size: 18px;
+    top: 1397px;
+    left: 19.643%;
+}
+#vertvalue4{
+    width: 20px;
+    height: 3px;
+    background: black;
+    position: absolute;
+    top: 1378px;
+    left: 20.595%;
+}
+#vertnum4{
+    position: absolute;
+    font-family: 'myfont';
+    font-size: 18px;
+    top: 1347px;
+    left: 19.643%;
+}
+#vertvalue5{
+    width: 20px;
+    height: 3px;
+    background: black;
+    position: absolute;
+    top: 1328px;
+    left: 20.595%;
+}
+#vertnum5{
+    position: absolute;
+    font-family: 'myfont';
+    font-size: 18px;
+    top: 1297px;
+    left: 19.643%;
+}
+#vertvalue6{
+    width: 20px;
+    height: 3px;
+    background: black;
+    position: absolute;
+    top: 1278px;
+    left: 20.595%;
+}
+#vertnum6{
+    position: absolute;
+    font-family: 'myfont';
+    font-size: 18px;
+    top: 1247px;
+    left: 19.643%;
+}
+#vertvalue7{
+    width: 20px;
+    height: 3px;
+    background: black;
+    position: absolute;
+    top: 1228px;
+    left: 20.595%;
+}
+#vertnum7{
+    position: absolute;
+    font-family: 'myfont';
+    font-size: 18px;
+    top: 1197px;
+    left: 19.643%;
+}
+#vertvalue8{
+    width: 20px;
+    height: 3px;
+    background: black;
+    position: absolute;
+    top: 1178px;
+    left: 20.595%;
+}
+#vertnum8{
+    position: absolute;
+    font-family: 'myfont';
+    font-size: 18px;
+    top: 1147px;
+    left: 19.643%;
+}
+#vertvalue9{
+    width: 20px;
+    height: 3px;
+    background: black;
+    position: absolute;
+    top: 1128px;
+    left: 20.595%;
+}
+#vertnum9{
+    position: absolute;
+    font-family: 'myfont';
+    font-size: 18px;
+    top: 1094px;
+    left: 19.643%;
+}
+#vertvalue10{
+    width: 20px;
+    height: 3px;
+    background: black;
+    position: absolute;
+    top: 1078px;
+    left: 20.595%;
+}
+#vertnum10{
+    position: absolute;
+    font-family: 'myfont';
+    font-size: 18px;
+    top: 1047px;
+    left: 19.048%;
+}
+#horlabel{
+    font-family: 'myFont';
+    position: absolute;
+    top: 1605px;
+    left: 48.036%;
+}
+#vertlabel{
+    font-family: 'myFont';
+     /* https://developer.mozilla.org/en-US/docs/Web/CSS/text-orientation */
+   writing-mode: vertical-rl;
+   position: absolute;
+   top: 1165px;
+   left: 15.595%;
+   height: 350px;
+}
+.graph.wd1{
+    opacity: 0.15;
+}
+.graph.wd2{
+    opacity: 0.15;
+}
+.graph.wd3{
+    opacity: 0.15;
+}
+.graph.wd4{
+    opacity: 0.15;
+}
+.graph.wd5{
+    opacity: 0.15;
+}
+.graph.wd6{
+    opacity: 0.15;
+}
+.graph.wd7{
+    opacity: 0.15;
+}
+.graph.wd8{
+    opacity: 0.15;
+}
+.graph.wd9{
+    opacity: 0.15;
+}
+#wdky1{
+    background:rgb(156,27,69);
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    position: absolute;
+    top: 1420px;
+    left: 25.893%;
+}
+#wdky1:hover{
+    opacity: 1;
+}
+#red1{
+    position: absolute;
+    top: 1402px;
+    left: 27.781%;
+    color: white;
+    opacity: 0;
+}
+#wdky2{
+    background:rgb(156,27,69);
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    position: absolute;
+    top: 1319px;
+    left: 30.06%;
+}
+#wdky2:hover{
+    opacity: 1;
+}
+#red2{
+    position: absolute;
+    top: 1301px;
+    left: 31.948%;
+    color: white;
+    opacity: 0;
+}
+#wdky3{
+    background:rgb(156,27,69);
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    position: absolute;
+    top: 1569px;
+    left: 34.821%;
+}
+#wdky3:hover{
+    opacity: 1;
+}
+#red3{
+    position: absolute;
+    top: 1551px;
+    left: 36.71%;
+    color: white;
+    opacity: 0;
+}
+#wdky4{
+    background:rgb(156,27,69);
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    position: absolute;
+    top: 1319px;
+    left: 35.417%;
+}
+#wdky4:hover{
+    opacity: 1;
+}
+#red4{
+    position: absolute;
+    top: 1301px;
+    left: 37.305%;
+    color: white;
+    opacity: 0;
+}
+#wdky5{
+    background:rgb(156,27,69);
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    position: absolute;
+    top: 1219px;
+    left: 39.583%;
+}
+#wdky5:hover{
+    opacity: 1;
+}
+#red5{
+    position: absolute;
+    top: 1201px;
+    left: 41.471%;
+    color: white;
+    opacity: 0;
+}
+#wdky6{
+    background:rgb(156,27,69);
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    position: absolute;
+    top: 1569px;
+    left: 41.964%;
+}
+#wdky6:hover{
+    opacity: 1;
+}
+#red6{
+    position: absolute;
+    top: 1551px;
+    left: 43.852%;
+    color: white;
+    opacity: 0;
+}
+#wdky7{
+    background:rgb(156,27,69);
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    position: absolute;
+    top: 1319px;
+    left: 44.345%;
+}
+#wdky7:hover{
+    opacity: 1;
+}
+#red7{
+    position: absolute;
+    top: 1301px;
+    left: 46.233%;
+    color: white;
+    opacity: 0;
+}
+#wdky8{
+    background:rgb(156,27,69);
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    position: absolute;
+    top: 1144px;
+    left: 61.607%;
+}
+#wdky8:hover{
+    opacity: 1;
+}
+#red8{
+    position: absolute;
+    top: 1126px;
+    left: 63.495%;
+    color: white;
+    opacity: 0;
+}
+#wdky9{
+    background:rgb(156,27,69);
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    position: absolute;
+    top: 1169px;
+    left: 79.464%;
+}
+#wdky9:hover{
+    opacity: 1;
+}
+#red9{
+    position: absolute;
+    top: 1126px;
+    left: 81.382%;
+    color: white;
+    opacity: 0;
+    width: 300px;
+}
+
